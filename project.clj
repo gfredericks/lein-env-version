@@ -3,4 +3,6 @@
   :url "https://github.com/fredericksgary/lein-env-version"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :eval-in-leiningen true)
+  :eval-in-leiningen true
+  :profiles {:dev {:dependencies [[me.raynes/conch "0.6.0"]
+                                  [me.raynes/fs "1.4.4"]]}})
